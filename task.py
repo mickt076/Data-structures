@@ -33,6 +33,9 @@ def task_3(): # Tuples
 def task_4(): # Sets
     fruits_1 = {"apple", "banana", "cherry", "grape", "mango", "pineapple", "papaya","sprite", "orange", "lemon", "strawberry"}
     fruits_2 = {"raspberry", "banana", "cherry", "grape", "mango", "blueberry", "papaya", "melon", "lemon", "steak"}
+    fruits_1.remove("sprite")
+    fruits_2.remove("steak")
+    
 
     duplicate_fruits = None # This should be a tuple containing all the fruits in both tuples
     individual_fruits = None # This should be a tuple containing only the individual fruits
