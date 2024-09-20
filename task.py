@@ -9,6 +9,16 @@ def task_2(): # Dictionaries
 
     keys = ("name", "age", "profession")
     values = ("Geoff", 35, "technician")
+    person = zip(keys, values)
+
+    keys = ("make", "model", "engine", "colour")
+    values = ("Ford", "Focus", "1.6", "blue")
+    car = zip(keys, values)
+
+    person = ('name', 'Geoff'), ('age', 35), ('profession', 'technician')
+    car = ('make', 'Ford'), ('model', 'Focus'), ('engine', '1.6'), ('colour', 'blue')
+    person += car
+    
 
     return person
 
