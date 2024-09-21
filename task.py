@@ -41,10 +41,15 @@ def task_3(): # Tuples
 def task_4(): # Sets
     fruits_1 = {"apple", "banana", "cherry", "grape", "mango", "pineapple", "papaya","sprite", "orange", "lemon", "strawberry"}
     fruits_2 = {"raspberry", "banana", "cherry", "grape", "mango", "blueberry", "papaya", "melon", "lemon", "steak"}
+    
     fruits_1.remove("sprite")
     fruits_2.remove("steak")
-    duplicate_fruits = ("banana", "cherry", "grape", "mango", "papaya", "lemon")
-    individual_fruits = ("apple", "raspberry", "pineapple", "blueberry", "orange", "melon", "strawberry")
+
+    duplicate_fruits = {}
+    individual_fruits = {}
+
+    duplicate_fruits.add("banana", "cherry", "grape", "mango", "papaya", "lemon")
+    individual_fruits.add("apple", "raspberry", "pineapple", "blueberry", "orange", "melon", "strawberry")
     
 
     
