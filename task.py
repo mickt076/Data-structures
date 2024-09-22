@@ -46,8 +46,8 @@ def task_4(): # Sets
 
     duplicate_fruits = set()
     individual_fruits = set()
-    duplicate_fruits.add(tuple(["banana", "cherry", "grape", "mango", "papaya", "lemon"])
-    individual_fruits.add(tuple(["apple", "raspberry", "pineapple", "blueberry", "orange", "melon", "strawberry"])
+    duplicate_fruits.add(tuple(["banana", "cherry", "grape", "mango", "papaya", "lemon"]))
+    individual_fruits.add(tuple(["apple", "raspberry", "pineapple", "blueberry", "orange", "melon", "strawberry"]))
     
 
     
